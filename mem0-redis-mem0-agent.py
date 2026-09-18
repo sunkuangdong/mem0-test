@@ -132,6 +132,7 @@ class Mem0MemoryStore:
                     ]
                 },
                 top_k=self.top_k,
+                rerank=True,
             ),
         )
 
